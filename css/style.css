@@ -1145,6 +1145,7 @@ input {
 @media (max-width: 500px) {
     .preloader__title {
         font-size: 40px;
+        -webkit-text-stroke: 3px #000;
     }
 
     .open-button {
@@ -1270,9 +1271,18 @@ input {
         display: none;
     }
 
+    .road-map__list {
+        align-items: center;
+    }
+
+    .how-to-buy__list {
+        align-items: center;
+    }
+    /*
     .preloader {
         display: none;
     }
+    */
 
     .first-section__image-img {
         display: none;
