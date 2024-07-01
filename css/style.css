@@ -1180,6 +1180,7 @@ input {
 
     .first__section-buttons {
         flex-direction: column;
+        align-items: center;
     }
 
     .about-us {
